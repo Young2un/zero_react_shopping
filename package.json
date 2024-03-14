@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "deploy": "yarn build && cd dist && npx vercel",
     "update": "npx ncu -u && npm i",
+    "start": "node server.js",
     "preview": "vite preview"
   },
   "devDependencies": {
